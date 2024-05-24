@@ -15,6 +15,7 @@ import { ColdPageComponent } from './pages/cold-page/cold-page.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HotPageComponent } from './pages/hot-page/hot-page.component';
 import { DessertPageComponent } from './pages/dessert-page/dessert-page.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DessertPageComponent } from './pages/dessert-page/dessert-page.componen
     ColdPageComponent,
     HotPageComponent,
     DessertPageComponent,
+    AboutPageComponent
 
   ],
   imports: [

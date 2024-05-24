@@ -5,6 +5,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { ColdPageComponent } from './pages/cold-page/cold-page.component';
 import { HotPageComponent } from './pages/hot-page/hot-page.component';
 import { DessertPageComponent } from './pages/dessert-page/dessert-page.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,9 @@ const routes: Routes = [
   },{
     path: 'dessert',
     component: DessertPageComponent
+  },{
+    path: 'about',
+    component: AboutPageComponent
   },
 ];
 
