@@ -2,10 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
-import { ColdPageComponent } from './pages/cold-page/cold-page.component';
-import { HotPageComponent } from './pages/hot-page/hot-page.component';
+
+
 import { DessertPageComponent } from './pages/dessert-page/dessert-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { CustomMadePageComponent } from './pages/custom-made-page/custom-made-page.component';
+import { SpoonPageComponent } from './pages/spoon-page/spoon-page.component';
+import { MeatPageComponent } from './pages/meat/meat-page/meat-page.component';
+import { VealPageComponent } from './pages/meat/veal-page/veal-page.component';
+import { PigPageComponent } from './pages/meat/pig-page/pig-page.component';
+import { ChickenPageComponent } from './pages/meat/chicken-page/chicken-page.component';
+import { PastaPageComponent } from './pages/pasta-page/pasta-page.component';
 
 const routes: Routes = [
   {
@@ -15,17 +22,32 @@ const routes: Routes = [
     path: 'contact',
     component: ContactPageComponent
   },{
-    path: 'cold',
-    component: ColdPageComponent
+    path: 'spoon',
+    component: SpoonPageComponent
   },{
-    path: 'hot',
-    component: HotPageComponent
+    path: 'meat',
+    component: MeatPageComponent
   },{
     path: 'dessert',
     component: DessertPageComponent
   },{
     path: 'about',
     component: AboutPageComponent
+  },{
+    path: 'made',
+    component: CustomMadePageComponent
+  },{
+    path: 'chicken',
+    component: ChickenPageComponent
+  },{
+    path: 'pig',
+    component: PigPageComponent
+  },{
+    path: 'veal',
+    component: VealPageComponent
+  },{
+    path: 'pasta',
+    component: PastaPageComponent
   },
 ];
 

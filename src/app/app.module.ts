@@ -11,11 +11,18 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { NavbarSecondaryComponent } from './components/navbar-secondary/navbar-secondary.component';
-import { ColdPageComponent } from './pages/cold-page/cold-page.component';
+
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { HotPageComponent } from './pages/hot-page/hot-page.component';
+
 import { DessertPageComponent } from './pages/dessert-page/dessert-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { CustomMadePageComponent } from './pages/custom-made-page/custom-made-page.component';
+import { SpoonPageComponent } from './pages/spoon-page/spoon-page.component';
+import { MeatPageComponent } from './pages/meat/meat-page/meat-page.component';
+import { VealPageComponent } from './pages/meat/veal-page/veal-page.component';
+import { PigPageComponent } from './pages/meat/pig-page/pig-page.component';
+import { ChickenPageComponent } from './pages/meat/chicken-page/chicken-page.component';
+import { PastaPageComponent } from './pages/pasta-page/pasta-page.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +33,18 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
     FooterComponent,
     MainPageComponent,
     ContactPageComponent,
-    ColdPageComponent,
-    HotPageComponent,
+
+    SpoonPageComponent,
     DessertPageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    CustomMadePageComponent,
+    MeatPageComponent,
+    VealPageComponent,
+    MainPageComponent,
+    PigPageComponent,
+    ChickenPageComponent,
+    VealPageComponent,
+    PastaPageComponent
 
   ],
   imports: [

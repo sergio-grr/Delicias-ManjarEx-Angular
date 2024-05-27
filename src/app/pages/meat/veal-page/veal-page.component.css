@@ -1,0 +1,23 @@
+.card {
+  background-color: #f69714;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  align-items: center;
+}
+.card {
+  background-color: #f69714;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  align-items: center;
+}
+
+
+button{
+  color: #f69714;
+}
