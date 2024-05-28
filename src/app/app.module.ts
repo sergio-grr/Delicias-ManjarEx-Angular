@@ -27,6 +27,7 @@ import { FishPageComponent } from './pages/fish-page/fish-page.component';
 import { CakePageComponent } from './pages/cake-page/cake-page.component';
 import { FaqsPageComponent } from './pages/faqs-page/faqs-page.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { Error404PageComponent } from './pages/error404-page/error404-page.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
     PastaPageComponent,
     FishPageComponent,
     CakePageComponent,
-    FaqsPageComponent
+    FaqsPageComponent,
+    Error404PageComponent
 
   ],
   imports: [

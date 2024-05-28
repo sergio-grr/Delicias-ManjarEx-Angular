@@ -16,6 +16,7 @@ import { PastaPageComponent } from './pages/pasta-page/pasta-page.component';
 import { FishPageComponent } from './pages/fish-page/fish-page.component';
 import { CakePageComponent } from './pages/cake-page/cake-page.component';
 import { FaqsPageComponent } from './pages/faqs-page/faqs-page.component';
+import { Error404PageComponent } from './pages/error404-page/error404-page.component';
 
 const routes: Routes = [
   {
@@ -60,6 +61,9 @@ const routes: Routes = [
   },{
     path: 'faqs',
     component: FaqsPageComponent
+  },{
+    path: '**',
+    component: Error404PageComponent
   },
 ];
 
