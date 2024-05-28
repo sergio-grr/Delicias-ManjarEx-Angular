@@ -13,6 +13,9 @@ import { VealPageComponent } from './pages/meat/veal-page/veal-page.component';
 import { PigPageComponent } from './pages/meat/pig-page/pig-page.component';
 import { ChickenPageComponent } from './pages/meat/chicken-page/chicken-page.component';
 import { PastaPageComponent } from './pages/pasta-page/pasta-page.component';
+import { FishPageComponent } from './pages/fish-page/fish-page.component';
+import { CakePageComponent } from './pages/cake-page/cake-page.component';
+import { FaqsPageComponent } from './pages/faqs-page/faqs-page.component';
 
 const routes: Routes = [
   {
@@ -48,6 +51,15 @@ const routes: Routes = [
   },{
     path: 'pasta',
     component: PastaPageComponent
+  },{
+    path: 'fish',
+    component: FishPageComponent
+  },{
+    path: 'cake',
+    component: CakePageComponent
+  },{
+    path: 'faqs',
+    component: FaqsPageComponent
   },
 ];
 
