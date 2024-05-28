@@ -1,0 +1,14 @@
+
+#comida{
+  height: 400px;
+  width: 200px;
+}
+
+
+
+@media (max-width: 768px) {
+  #comida {
+    width: 25%;
+    height: 225px;
+  }
+}
