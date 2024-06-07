@@ -1,4 +1,45 @@
-#container2, #container4{
-  background-color:#f69714 ;
+#container2,
+#container4 {
+  background-color: #f69714;
 
+}
+
+.slide-rotate-horizontal-top {
+  animation: slide-rotate-horizontal-top 2s linear both
+}
+
+@keyframes slide-rotate-horizontal-top {
+  0% {
+    transform: translateY(0) rotateX(0deg)
+  }
+
+  100% {
+    transform: translateY(-150px) rotateX(-90deg)
+  }
+}
+
+
+#animation
+{
+  width: 100%;
+  height: auto;
+}
+
+#animatedcontainer {
+  height: 100vh;
+
+
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 2s forwards;
 }
