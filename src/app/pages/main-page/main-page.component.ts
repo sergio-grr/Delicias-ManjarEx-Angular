@@ -5,7 +5,9 @@ import { AfterViewInit, Component, ElementRef, OnInit, Renderer2 } from '@angula
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.css']
 })
-export class MainPageComponent  implements AfterViewInit {
+export class MainPageComponent implements AfterViewInit {
+
+  showElement: boolean = true;
 
   constructor(private renderer: Renderer2, private elementRef: ElementRef) { }
 
@@ -13,8 +15,16 @@ export class MainPageComponent  implements AfterViewInit {
     const animatedContainer = this.elementRef.nativeElement.querySelector('#animatedcontainer');
     const animation = this.elementRef.nativeElement.querySelector('#animation');
 
+    const hasAnimatedBefore = sessionStorage.getItem('hasAnimated');
+    if (hasAnimatedBefore) {
+      this.renderer.setStyle(animatedContainer, 'display', 'none');
+      this.renderer.setStyle(animation, 'display', 'none');
+      return;
+    }
+
     animatedContainer.addEventListener('animationend', () => {
       this.renderer.setStyle(animatedContainer, 'display', 'none');
+      sessionStorage.setItem('hasAnimated', 'true');
     });
 
     animation.addEventListener('animationend', () => {
