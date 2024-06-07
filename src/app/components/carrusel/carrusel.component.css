@@ -11,7 +11,11 @@
     width: 25%;
     height: 225px;
   }
+
 }
 
 
 
+#carrusel{
+ max-width:750px;
+}
